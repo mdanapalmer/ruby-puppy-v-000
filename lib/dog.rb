@@ -9,7 +9,7 @@ class Dog
   end
   
   def self.all 
-   puts @@all.each{|dog| dog.name}
+   puts @@all.map{|dog| dog.name}
   end
   #The reason we use map here is because map is going to return an array of all the dog's names
   
